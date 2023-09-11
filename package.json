@@ -1,0 +1,15 @@
+{
+  "name": "node-site-generator",
+  "version": "1.0.0",
+  "description": "This will generate a website with html",
+  "main": "index.js",
+  "repository": "htttps//github.com/node-site-generator",
+  "author": "MD. Mashfiqur Rahman",
+  "scripts": {
+    "build": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
