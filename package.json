@@ -6,10 +6,12 @@
   "repository": "https://github.com/mashfiqcse13/node-site-generator",
   "author": "MD. Mashfiqur Rahman",
   "scripts": {
-    "build": "node ."
+    "build": "node .",
+    "serve": "http-server build"
   },
   "license": "MIT",
   "dependencies": {
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "http-server": "^14.1.1"
   }
 }

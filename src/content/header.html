@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>${title}</title>
+    <title>${title} | ${siteTitle}</title>
+    <link rel="stylesheet" href="${baseUrl}assets/css/main.css">
 </head>
 <body>
     <header>
-        This is header - ${title}
+        This is header - ${title} - ${siteTitle}
         <ul>
-            <li><a href="about">About</a></li>
-            <li><a href="blog">Blog</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="${baseUrl}">Home</a></li>
+            <li><a href="${baseUrl}about">About</a></li>
+            <li><a href="${baseUrl}contact">Contact</a></li>
         </ul>
     </header>
