@@ -6,8 +6,9 @@ module.exports = async () => {
     const header = await ff.getContent(contentFoleder + 'header.html')
     const home = await ff.getContent(contentFoleder + 'pages/home.html')
     const footer = await ff.getContent(contentFoleder + 'footer.html')
-    // console.log(header + home + footer)
-    ff.writeContent('build/index.html', minify(header + home + footer, {
+    const content = (header + home + footer)
+        .replaceAll('${title}', "Home")
+    ff.writeContent('build/index.html', minify(content, {
         trimCustomFragments: true,
         collapseWhitespace: true,
         removeComments: true,

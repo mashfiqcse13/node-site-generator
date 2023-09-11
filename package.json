@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This will generate a website with html",
   "main": "index.js",
-  "repository": "htttps//github.com/node-site-generator",
+  "repository": "https://github.com/mashfiqcse13/node-site-generator",
   "author": "MD. Mashfiqur Rahman",
   "scripts": {
     "build": "node ."
